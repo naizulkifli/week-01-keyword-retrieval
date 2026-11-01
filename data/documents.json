@@ -1,0 +1,202 @@
+[
+  {
+    "id": "doc-001",
+    "title": "Machine Learning",
+    "content": "Machine Learning is a program that learns from experiences by measuring its performance doing a given task. It was created to help people solve problems.",
+    "source_url": null,
+    "content_origin": "Human-written study summary.",
+    "license_note": "Original personal study notes."
+  },
+  {
+    "id": "doc-002",
+    "title": "Overfitting",
+    "content": "Overfitting is a model too accurately predicts pattern on trained data. The problem with overfitting is the model performs poorly on new data because it memorized noises.",
+    "source_url": null,
+    "content_origin": "Human-written study summary.",
+    "license_note": "Original personal study notes."
+  },
+  {
+    "id": "doc-003",
+    "title": "Gradient Descent",
+    "content": "Gradient Descent is minimizing a cost function. It's a way to converge towards a local minimum of a cost function.",
+    "source_url": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+    "content_origin": "Human-written study summary.",
+    "license_note": "Original personal study notes."
+  },
+  {
+    "id": "doc-004",
+    "title": "Embeddings",
+    "content": "Embeddings is a technique that takes inputs and turn them into vectors. A sentence input goes through an embedding model and return a vector so that computers can compare meaning. This is because computers don't understand words, they understand numbers.",
+    "source_url": "https://www.youtube.com/shorts/iPkrYxl1cDk",
+    "content_origin": "Human-written study summary.",
+    "license_note": "Original personal study notes."
+  },
+  {
+    "id": "doc-005",
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "content": "RAG is a way for LLM to retrieve information that are outside of its data and after its training cutoff. This solves the problem for when data isn't available within the trained data for the model. Because RAG takes in additional data and compare it to its trained data and find the most relevant answer.",
+    "source_url": "https://www.youtube.com/shorts/BzKAlZstEH8",
+    "content_origin": "Human-written study summary.",
+    "license_note": "Original personal study notes."
+  },
+  {
+    "id": "doc-006",
+    "title": "Supervised vs Unsupervised Learning",
+    "content": "Supervised learning trains on labeled data where each input has a known output. Unsupervised learning finds patterns in data without labels. Classification is a common supervised task; clustering is a common unsupervised task.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Tom Mitchell, Machine Learning (1997), Chapter 1."
+  },
+  {
+    "id": "doc-007",
+    "title": "Neural Networks",
+    "content": "A neural network is a computing model made of layers of connected nodes. Each node applies a simple computation, and connections between nodes have adjustable weights. Training adjusts these weights so the network can map inputs to outputs.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Goodfellow et al., Deep Learning (2016), Chapter 6."
+  },
+  {
+    "id": "doc-008",
+    "title": "Precision and Recall",
+    "content": "Precision measures how many of the retrieved results are actually relevant. Recall measures how many of the relevant results were retrieved. They are complementary metrics used in classification evaluation.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Jurafsky and Martin, Speech and Language Processing."
+  },
+  {
+    "id": "doc-009",
+    "title": "Confusion Matrix",
+    "content": "A confusion matrix is a table that compares predicted labels against actual labels. It shows true positives, false positives, true negatives, and false negatives. It helps visualize where a classifier makes mistakes.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Provost and Fawcett, Data Science for Business."
+  },
+  {
+    "id": "doc-010",
+    "title": "Feature Engineering",
+    "content": "Feature engineering is the process of transforming raw data into input variables that help a model learn patterns. Examples include combining columns, extracting dates, or encoding categories. Well-chosen features can make a model easier to train and more accurate.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Kuhn and Johnson, Feature Engineering and Selection."
+  },
+  {
+    "id": "doc-011",
+    "title": "Train/Test Split",
+    "content": "Train/test split divides data into a training part and a test part. The model trains on the training part and is evaluated on the test part, which simulates unseen data. This helps estimate how the model may perform in practice, though the estimate depends on how the split is made.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Hastie et al., Elements of Statistical Learning (2009)."
+  },
+  {
+    "id": "doc-012",
+    "title": "Hyperparameter Tuning",
+    "content": "Hyperparameters are settings chosen before training, such as learning rate or number of layers. They are not learned from data like model weights. Tuning means trying different settings and selecting the ones that give the best evaluation results.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Bergstra and Bengio (2012), Random Search for Hyper-Parameter Optimization."
+  },
+  {
+    "id": "doc-013",
+    "title": "Bias-Variance Tradeoff",
+    "content": "Bias is error from assumptions that are too simple for the problem. Variance is error from sensitivity to small changes in training data. Reducing one often increases the other, so practitioners look for a workable balance rather than a perfect fix.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Geman et al. (1992), Neural Networks and the Bias/Variance Dilemma."
+  },
+  {
+    "id": "doc-014",
+    "title": "Tokenization",
+    "content": "Tokenization splits text into smaller units called tokens, which can be words, subwords, or characters. Models process these tokens as numerical identifiers. The choice of tokenization affects how the model sees and represents text.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Jurafsky and Martin, Speech and Language Processing."
+  },
+  {
+    "id": "doc-015",
+    "title": "Attention Mechanism",
+    "content": "Attention computes a weighted combination of input elements, assigning higher weights to elements more relevant to the current prediction. These weights are learned during training. Attention allows a model to weigh different parts of an input differently rather than treating them equally.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Vaswani et al. (2017), Attention Is All You Need."
+  },
+  {
+    "id": "doc-016",
+    "title": "Transformer Architecture",
+    "content": "A transformer is a neural network that processes all positions in a sequence in parallel using self-attention, rather than one step at a time. It uses positional encodings to keep track of word order. Transformers are the basis for many modern language models.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Vaswani et al. (2017), Attention Is All You Need."
+  },
+  {
+    "id": "doc-017",
+    "title": "Fine-tuning",
+    "content": "Fine-tuning takes a model pretrained on a large dataset and continues training it on task-specific data. It starts from the pretrained weights rather than random initialization. Fine-tuning can adapt a general model to a specialized task with less data than training from scratch.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Howard and Ruder (2018), Universal Language Model Fine-tuning."
+  },
+  {
+    "id": "doc-018",
+    "title": "Zero-shot vs Few-shot Learning",
+    "content": "Zero-shot learning asks a model to perform a task it was not explicitly trained on, using only a description in the prompt. Few-shot learning provides a small number of examples in the prompt before asking for a prediction. Both test generalization without full retraining.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Brown et al. (2020), Language Models are Few-Shot Learners."
+  },
+  {
+    "id": "doc-019",
+    "title": "Prompt Engineering",
+    "content": "Prompt engineering designs input text to guide a language model toward a desired output. Wording, examples, and structure in the prompt affect the response. It does not change the model's internal weights.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Dale and Sommer (2023), Prompt Engineering: A Beginner's Guide."
+  },
+  {
+    "id": "doc-020",
+    "title": "Model Evaluation Metrics",
+    "content": "Model evaluation metrics measure how well a model performs on held-out data. Common metrics include accuracy, precision, recall, and F1 score. The right metric depends on the task and the relative cost of different kinds of errors.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Provost and Fawcett, Data Science for Business."
+  },
+  {
+    "id": "doc-021",
+    "title": "Data Leakage",
+    "content": "Data leakage happens when information that would not be available at prediction time enters the training process. This can make performance look better than it really is. A common cause is preprocessing the full dataset before splitting into train and test.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is practical machine learning literature on data leakage."
+  },
+  {
+    "id": "doc-022",
+    "title": "Class Imbalance",
+    "content": "Class imbalance occurs when one class has many more examples than another. Accuracy can be misleading because a model might predict the majority class most of the time. Metrics like F1 score can be more informative in some cases, but the choice depends on the goal.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is He and Garcia (2009), Learning from Imbalanced Data."
+  },
+  {
+    "id": "doc-023",
+    "title": "Learning Rate",
+    "content": "The learning rate controls how much a model's weights change in response to error during training. Too high can cause divergence; too low can make training slow. It is a key hyperparameter in gradient descent.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Goodfellow et al., Deep Learning (2016), Chapter 5."
+  },
+  {
+    "id": "doc-024",
+    "title": "Early Stopping",
+    "content": "Early stopping halts training when performance on a validation set stops improving. It aims to prevent overfitting by avoiding too many training iterations. The model checkpoint from the best epoch is typically kept.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Prechelt (1998), Early Stopping — But When?"
+  },
+  {
+    "id": "doc-025",
+    "title": "Cross-validation",
+    "content": "Cross-validation splits data into multiple folds and trains and evaluates on different combinations of folds. It gives a more stable performance estimate than a single train/test split. K-fold cross-validation is a common variant.",
+    "source_url": null,
+    "content_origin": "AI-assisted draft, human-reviewed",
+    "license_note": "Draft for review; reference is Kohavi (1995), A Study of Cross-Validation and Bootstrap."
+  }
+]
