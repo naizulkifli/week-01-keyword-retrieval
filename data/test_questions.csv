@@ -1,0 +1,21 @@
+question_id,question,category,expected_doc_ids
+q01,"What is Machine Learning, and what does it do?",Direct,doc-001
+q02,"What are Precision and Recall used for?",Direct,doc-008
+q03,"What does Train/Test Split do?",Direct,doc-011
+q04,"How does Tokenization work?",Direct,doc-014
+q05,"When does Data Leakage happen?",Direct,doc-021
+q06,"How does gradient descent update a model to reduce its loss during training?",Paraphrased,doc-003
+q07,"What is the difference between learning with labels and learning without labels?",Paraphrased,doc-006
+q08,"How can a language model access information outside its training data?",Paraphrased,doc-005
+q09,"What happens when a model memorizes noise from training data instead of learning patterns?",Paraphrased,doc-002
+q10,"How can text be represented as vectors so its meaning can be compared?",Paraphrased,doc-004
+q11,"How can overfitting make a model perform poorly on unseen data, and how does a train/test split reveal that?",Multi-concept,doc-002;doc-011
+q12,"How do precision and recall differ, and how do they fit alongside accuracy and F1 when evaluating a model?",Multi-concept,doc-008;doc-020
+q13,"How does learning from a few examples differ from supervised learning with labeled training data?",Multi-concept,doc-006;doc-018
+q14,"How do neural networks learn through connected weights, and what does transformer architecture add through attention and sequence processing?",Multi-concept,doc-007;doc-016
+q15,"What is overfitting, and how does early stopping help prevent it?",Multi-concept,doc-002;doc-024
+q16,How does reinforcement learning use rewards to train an agent?,Unanswerable,
+q17,What is the learning rate for BERT-base?,Unanswerable,
+q18,How do I deploy a machine learning model to AWS?,Unanswerable,
+q19,What is the difference between PyTorch and TensorFlow?,Unanswerable,
+q20,How do convolutional filters extract spatial features from images?,Unanswerable,
